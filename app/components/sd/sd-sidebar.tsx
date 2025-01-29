@@ -105,10 +105,17 @@ export function SideBar(props: { className?: string }) {
           </div>
         </div>
       ) : (
-        <SideBarHeader
-          title="Light94pro2.0"
-          logo={<SDIcon width={38} height={"100%"} />}
-        />
+        <SideBarHeader  
+          title={  
+            <IconButton  
+              icon={<ReturnIcon />}  
+              bordered  
+              title={Locale.Sd.Actions.ReturnHome}  
+              onClick={() => navigate(Path.Home)}  
+            />  
+          }  
+          logo={<SDIcon width={38} height={"100%"} />}  
+        ></SideBarHeader>  
       )}
       <SideBarBody>
         <SdPanel />
