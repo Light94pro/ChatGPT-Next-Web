@@ -8,11 +8,11 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? `😆 对话遇到了一些问题，不用慌:
+      ? `😆 :
        \\ 1️⃣ 想要了解作者，[点击这里 🚀](${SAAS_CHAT_UTM_URL})`
-      : `😆 对话遇到了一些问题，不用慌:
-       \ 1️⃣ 想要了解作者，[点击这里 🚀](${SAAS_CHAT_UTM_URL})
-       \ 2️⃣ 使用老张的私有部署版本，点击[这里](/#/auth)输入密码 🔑
+      : `😆 :
+       \ 1️⃣ 使用老张的私有部署版本，点击[这里](/#/auth)输入密码 🔑
+       \ 2️⃣ 想要了解作者，[点击这里 🚀](${SAAS_CHAT_UTM_URL})
        `,
   },
   Auth: {
@@ -23,7 +23,7 @@ const cn = {
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
-    SaasTips: "配置太麻烦，想要立即使用",
+    SaasTips: " ",
     TopTips:
       "🥳 使用愉快!",
   },
@@ -314,7 +314,7 @@ const cn = {
         Label: "（性价比最高的方案）",
         SubTitle:
           "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
-        ChatNow: "立刻对话",
+        ChatNow: "联系作者",
       },
       AccessCode: {
         Title: "访问密码",
